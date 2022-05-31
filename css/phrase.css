@@ -1,0 +1,172 @@
+body {
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #dfe9e8;
+}
+
+*, body {
+    margin: 0;
+}
+
+.navbar, .section {
+    background-color: transparent;
+    height: 80px;
+}
+
+.section {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.group {
+    width: auto;
+    height: 50px;
+}
+
+div {
+    display: block;
+}
+
+.phase__constrainst {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.phase__flex {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 1em;
+    padding-bottom: 0px;
+    padding-left: 1em;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+}
+
+.phase__key {
+    flex-basis: 33.3%;
+}
+
+.a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: red;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+@media (max-width: 760px)
+a {
+    margin: 0 0.3em;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+a, span {
+    color: #5878bc;
+}
+
+.active {
+    border-bottom: 2px solid #07305a;
+    padding-bottom: 0.5em;
+}
+
+.constrain {
+    margin: 1em auto;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    color: redj;
+}
+
+.constrain, .errordiv {
+    width: 90%;
+    background-color: #fff;
+}
+
+label {
+    margin: 1em 0;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    color: grey;
+}
+
+@media (max-width: 700px)
+.h4 {
+    color: #5858b4;
+    margin: 0.3em 0;
+    font-size: 12px;
+}
+
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.h4, .sub {
+    font-weight: 300;
+}
+
+.sub {
+    padding: 1.2em 2em;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+button {
+    color: #fff;
+    background-color: #2a498d;
+    width: auto;
+    height: auto;
+    margin: 0.8em 0;
+    border: 1px solid #2a498d;
+    cursor: pointer;
+    font-family: "Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+    text-align: center;
+}
+
+input {
+    color: #000;
+    font-weight: bolder;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 0.5px solid grey;
+}
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
